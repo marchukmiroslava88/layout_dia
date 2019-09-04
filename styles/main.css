@@ -379,12 +379,14 @@ body {
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px); }
   .review__author-photo {
-    height: 130px; }
+    height: 130px;
+    margin-bottom: 10px; }
     .review__author-photo img {
       position: absolute;
       left: 50%;
       -webkit-transform: translateX(-50%);
-              transform: translateX(-50%); }
+              transform: translateX(-50%);
+      top: 80px; }
     .review__author-photo:before {
       content: "";
       display: inline-block;
